@@ -1,6 +1,6 @@
 /* ROOM */
-const roomName = "Enter the name of your room";
-const botName = "Judge";
+const roomName = "44 của YUNO đẹp trai";
+const botName = "Vợ iu của yuno";
 const maxPlayers = 24; // maximum number of players in the room
 const roomPublic = true; // true = public room | false = players only enter via the room link (it does not appear in the room list)
 const geo = [{"lat": -22.9201, "lon": -43.3307, "code": "br"}, {"code": "FR", "lat": 46.2, "lon": 2.2}, {"code": "PL", "lat": 51.9, "lon": 19.1}, {"code": "GB", "lat": 55.3, "lon": -3.4}, {"code": "PT", "lat": 39.3, "lon": -8.2}]; 
@@ -59,31 +59,31 @@ let Cor = {
     Warn: 0xff9966
         }
     // here you can place/edit goal messages, always respecting the " , ". Example: "Belo gooool," the player's name will always be after the comma.     
-    const frasesGols = [" WHAT A GOAL IS THAT, LADIES AND GENTLEMEN! You are a legend, ",
-        " GOOOOOOOOOOL! THE WORLD NEEDS MORE LIKE YOU, ",
-        " Look at this goal from ",
-        " IT'S GOOOOOL from ",
-        " What a great goal from ",
-        " GOOOOOOOOOOL! SHOWING UP WHEN WE NEED IT MOST, THANKS TO ",
-        " MY GOODNESS!!!! THE IMPOSSIBLE HAPPENED MY GOD IN HEAVEN, IT’S A GOAL FOR YOU ",
-        " WHAT A GOAL FROM ",
-        " Impressive completion of the ",
-        " Sorry for the insults, BUT HOLY SHIT, WHAT A GOAL IS THAT, ",
-        " IT'S CASH, IT'S CASH, IT'S CASH, IT'S GOOOOOOOOOL FROM "
+    const frasesGols = [" BÀN THẮNG ĐÓ THẬT LÀ BÀN THẮNG, QUÝ ÔNG! Các bạn là một huyền thoại, ",
+        " Vàoooooo! THẾ GIỚI CẦN NHIỀU NGƯỜI NHƯ CÁC BẠN, ",
+        " Hãy nhìn bàn thắng này từ ",
+        " Làm tốt lắm chàng trai ",
+        " Thật là một bàn thắng tuyệt vời từ ",
+        " Vàooooooooo! XUẤT HIỆN KHI CHÚNG TA CẦN NHẤT, NHỜ ",
+        " TRỜI ƠI!!!! ĐIỀU KHÔNG THỂ ĐÃ XẢY RA,ĐÓ LÀ MỘT BÀN THẮNG CỦA ANH ",
+        " MỘT BÀN THẮNG TỪ ",
+        " Hoàn thành ấn tượng của ",
+        " vàoooooooo! CÚ SÚT CHÁY LƯỚI CỦA ",
+        " TẤT CẢ QUỲ XUỐNG! ANH MỚI LÀ NHÀ VUA ",
     ];
     // here you can place/edit assistance messages, always respecting the " , ". Example: "Nice pass," the player's name will always be after the comma.
-    const frasesasis = [" with the beautiful of ",
-        " accompanied by the beautiful pass of ",
-        " with the ball in the mouth of the goal by ",
-        " with the phenomenal assistance of ",
-        " and we cannot forget the magnificent pass of"
+    const frasesasis = [" ĐÓ LÀ 1 ĐƯỜNG CHUYỀN RẤT ĐẸP ĐẾN TỪ VỊ TRÍ ",
+        " đi kèm với đường chuyền đẹp đẽ của ",
+        " với quả bóng trong miệng khung thành bởi ",
+        " với sự hỗ trợ phi thường của ",
+        " và chúng ta không thể quên đường chuyền tuyệt vời của ",
     ];
     // here you can post/edit messages for mockery, for own goals, always respecting the " , ". Example: "Try to kick to the other side," the player's name will always be after the comma.
-    const frasesautogol = [" I'm sure it was by accident, right, ",
-        " YOU'RE PLAYING FOR THE WRONG TEAM, ",
-        " CONGRATULATIONS!! THE OPPONENT TEAM THANKS YOU, ",
-        " IT'S GOOOOOOOOOL... against ",
-        " Return to the sea offering, "
+    const frasesautogol = [" Tôi chắc chắn ĐÓ LÀ LAG, đúng không, ",
+        " ĐÓ LÀ KHUNG THÀNH TEAM MÌNH MÀ, ",
+        " BẠN BÁN ĐỘ À, ",
+        " ĐỐI THỦ PHẢI CẢM ƠN BẠN, ",
+        " Trở về với biển cả, "
     ];
 
 const secondsToResetAvatar = 3;
@@ -96,7 +96,7 @@ var msg1;
 var msg1Time = 1500000;
 var Deus = [];
 var BotdivulgaTime = 900000;
-var adminPassword = 4002;
+var adminPassword = 3007;
 
 var vip1 = [];
 var vip2 = [];
@@ -4408,55 +4408,55 @@ room.onPlayerChat = function(player, message) {
             var announcement = "";
             var chatColor = "";
             if (stats[Ss.GL] > 500) {
-                announcement += "[👑] - [⚽: " + stats[Ss.GL] +"]  ·「The Legend of x3」"
+                announcement += "[👑] - [⚽: " + stats[Ss.GL] +"]  ·「Huyền Thoại I」"
                 chatColor = "0xf77104"
             } else if (stats[Ss.GL] > 200) {
-                announcement += "[💎] - [⚽: " + stats[Ss.GL] +"]  ·「Diamond IV」"
+                announcement += "[💎] - [⚽: " + stats[Ss.GL] +"]  ·「Kim Cương IV」"
                 chatColor = "0x7cd3fa"
             } else if (stats[Ss.GL] > 150) {
-                announcement += "[💎] - [⚽: " + stats[Ss.GL] +"]  ·「Diamond III」"
+                announcement += "[💎] - [⚽: " + stats[Ss.GL] +"]  ·「Kim Cương III」"
                 chatColor = "0x7cd3fa"
             } else if (stats[Ss.GL] > 120) {
-                announcement += "[💎] - [⚽: " + stats[Ss.GL] +"]  ·「Diamond II」"
+                announcement += "[💎] - [⚽: " + stats[Ss.GL] +"]  ·「Kim Cương II」"
                 chatColor = "0x7cd3fa"
             } else if (stats[Ss.GL] > 80) {
-                announcement += "[💎] - [⚽: " + stats[Ss.GL] +"]  ·「Diamond I」"
+                announcement += "[💎] - [⚽: " + stats[Ss.GL] +"]  ·「kim Cương I」"
                 chatColor = "0x7cd3fa"
             } else if (stats[Ss.GL] > 60) {
-                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Platinum III」"
+                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Bạch Kim III」"
                 chatColor = "0x62AEE3"
             } else if (stats[Ss.GL] > 55) {
-                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Platinum II」"
+                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Bạch Kim II」"
                 chatColor = "0x62AEE3"
             } else if (stats[Ss.GL] > 50) {
-                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Platinum I」"
+                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Bạch Kim I」"
                 chatColor = "0x62AEE3"
             } else if (stats[Ss.GL] > 40) {
-                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Gold III」"
+                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Vàng III」"
                 chatColor = "0xEAC274"    
             } else if (stats[Ss.GL] > 35) {
-                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Gold II」"
+                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Vàng II」"
                 chatColor = "0xEAC274"
             } else if (stats[Ss.GL] > 30) {
-                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Gold I」"
+                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Vàng I」"
                 chatColor = "0xEAC274"
             } else if (stats[Ss.GL] > 20) {
-                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Silver III」"
+                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Bạc III」"
                 chatColor = "0xA2A2A2"
             } else if (stats[Ss.GL] > 15) {
-                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Silver II」"
+                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「bạc II」"
                 chatColor = "0xA2A2A2"
             } else if (stats[Ss.GL] > 10) {
-                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Silver I」"
+                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Bạc I」"
                 chatColor = "0xA2A2A2"
             } else if (stats[Ss.GL] > 8) {
-                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Bronze III」"
+                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Đồng III」"
                 chatColor = "0xbc5e00"
             } else if (stats[Ss.GL] > 5) {
-                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Bronze II」"
+                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Đồng II」"
                 chatColor = "0xbc5e00"
             } else if (stats[Ss.GL] > 2) {
-                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Bronze I」"
+                announcement += "[⚽: " + stats[Ss.GL] +"]  ·「Đồng I」"
                 chatColor = "0xbc5e00"
             } else {
                 announcement += "「No rank」"
